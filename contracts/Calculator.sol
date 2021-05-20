@@ -125,17 +125,3 @@ contract Calculator {
     return number1 % number2;
   }
 }
-
-/*
-const { expect } = require('chai')
-const { ethers } = require('ethers')
-
-describe('Calculator', function () {
-  it('Should return something', async function () {
-    const Calculator = await ethers.getContractFactory('Calc')
-    const calculator = await Calculator.deploy()
-    await calculator.deployed()
-    expect(await calculator.add(1, 1).to.equal(2))
-  })
-})
-*/
